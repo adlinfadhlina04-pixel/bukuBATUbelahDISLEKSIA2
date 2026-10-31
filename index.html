@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <title>Batu Belah Batu Bertangkup</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUKA DEPAN BUKU -->
+    <section id="cover" class="cover">
+
+        <img
+            src="images/cover.png"
+            alt="Muka depan cerita Batu Belah Batu Bertangkup"
+        >
+
+        <div class="cover-content">
+
+            <h1>BATU BELAH BATU BERTANGKUP</h1>
+
+            <p>Buku Cerita Digital Interaktif</p>
+
+            <button id="btn-mula" type="button">
+                Mula Membaca 📖
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- BUTANG FULL SCREEN - TELEFON SAHAJA -->
+    <button
+        id="btn-fullscreen"
+        type="button"
+        aria-label="Aktifkan paparan skrin penuh"
+        aria-pressed="false"
+    >
+        ⛶ Full screen
+    </button>
+
+
+    <!-- HALAMAN CERITA -->
+    <section id="halaman-cerita" hidden>
+
+        <!-- NOMBOR HALAMAN -->
+        <p id="nombor-halaman"></p>
+
+
+        <!-- TEKS CERITA -->
+        <div id="teks-cerita"></div>
+
+
+        <!-- GAMBAR CERITA -->
+        <img
+            id="gambar-cerita"
+            src=""
+            alt="Ilustrasi cerita Batu Belah Batu Bertangkup"
+        >
+
+
+        <!-- BUTANG BACA SEMULA AYAT -->
+        <div class="kawalan-audio">
+
+            <button id="btn-baca-semula" type="button">
+                🔁 Baca Semula Ayat
+            </button>
+
+        </div>
+
+
+        <!-- BUTANG NAVIGASI -->
+        <div class="butang-navigasi">
+
+            <!-- KEMBALI KE HALAMAN SEBELUMNYA -->
+            <button
+                id="btn-sebelum"
+                type="button"
+                aria-label="Halaman sebelumnya"
+                title="Halaman sebelumnya"
+            >
+                ❮
+            </button>
+
+
+            <!-- HALAMAN SETERUSNYA / HALAMAN UTAMA -->
+            <button
+                id="btn-seterusnya"
+                type="button"
+                aria-label="Halaman seterusnya"
+                title="Halaman seterusnya"
+            >
+                ❯
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
